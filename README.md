@@ -74,5 +74,5 @@ Customers who meet all of the following criteria:
 
 ## Process Flow & Data Set
 
-Click here to access the process and data set used.
+Click [here](https://github.com/andyababio/A-B-Testing---Optimizing-Loan-Repayment-Campaigns/blob/main/Procees_%26_data.md) to access the process and data set used.
 
