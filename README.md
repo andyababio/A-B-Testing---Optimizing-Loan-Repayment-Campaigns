@@ -1,5 +1,4 @@
-# A/B Testing - Optimizing Loan Repayment Campaigns
-
+# A/B Testing Message Framing to Improve Early-Stage Loan Repayments
 # Logo
 
 # PAYZEN
