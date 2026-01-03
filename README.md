@@ -3,19 +3,19 @@
 # Logo
 
 # PAYZEN
-PayZen is a digital financial platform empowering individuals across Africa to take control of their finances with ease. From managing repayments and accessing instant loans to making smart investments, PayZen simplifies financial decisions with transparency, flexibility, and innovative technology, wuth a mission to create financial freedom and inclusion for everyone, whether in city centers or rural communities
+PayZen is a digital financial platform empowering individuals across Africa to take control of their finances with ease. From managing repayments and accessing instant loans to making smart investments, PayZen simplifies financial decisions with transparency, flexibility, and innovative technology, with a mission to create financial freedom and inclusion for everyone, whether in city centers or rural communities
 
 ## Problem Statement
 
-Digital loan recovery campaigns at PayZen rely heavily on automated SMS and WhatsApp reminders. However, repayment rates in early-stage delinquency remain inconsistent, and it is unclear which message framing most effectively motivates customers to take action. Current campaigns use generic reminder language, which may not resonate equally across customer segments or behavioral contexts. This results in the following baseline KPI standings:
+Digital loan recovery campaigns at PayZen rely heavily on automated WhatsApp reminders. However, repayment rates in early-stage delinquency remain inconsistent, and it is unclear which message framing most effectively motivates customers to take action. Current campaigns use generic reminder language, which may not resonate equally across customer segments or behavioral contexts. This results in the following baseline KPI standings:
 
  - Repayment Rate: 41%
- - Repayment Mix: 73% Partial | 27% Full
+ - Repayment Mix: 80% Partial | 20% Full
  - Response Rate: 7.5%
 
 ## Campaign Objective
 
-To increase loan repayment rates in early-stage delinquency (1–7 days past due) by optimizing the messaging used in automated recovery campaigns, while maintaining a positive customer experience.
+To assess the effect of changes in message framing on loan repayment rates in early-stage delinquency (1–7 days past due), while maintaining a positive customer experience.
 
 ## Hypothesis
 
@@ -105,13 +105,22 @@ Click [here](https://github.com/andyababio/A-B-Testing---Optimizing-Loan-Repayme
     - This reflects a ~46% relative increase in response rate, suggesting empathetic language encourages customers to engage rather than ignore messages.
     - Higher response rates likely contributed to the observed improvement in repayment outcomes.
 
-5. Behavioral Insight Summary
- - Customers are more likely to act when messages acknowledge challenges and offer reassurance, rather than using strictly transactional language.
- - Increased engagement appears to correlate with improved repayment behavior, reinforcing the importance of tone and framing in digital collections.
- - However, repayment amounts remain constrained, implying financial capacity, not willingness, limits full repayment.
 
-6. Key Takeaway
+## Key Recommendations & Next Steps
 
- - The test demonstrates that empathetic messaging is a low-cost, high-impact optimization for early-stage digital recovery campaigns.
- - While it does not shift repayment mix, it meaningfully improves repayment rates and customer engagement, validating its use at scale.
+ - Scale empathetic messaging as the default recovery strategy, as it increased repayment rates from 41.25% (Control) to 56.10% (Variant), delivering a +14.85% uplift in early-stage delinquency recovery.
 
+ - Introduce targeted follow-up messages to drive full repayments, since repayment behavior remains predominantly partial (≈80% partial vs ≈20% full) across both variants despite higher overall repayment.
+
+ - Expand structured experimentation to improve engagement, building on the higher response rate achieved by empathetic messaging (10.98% vs 7.50% in the control group).
+
+
+## Limitations & Considerations
+
+ - The experiment focused exclusively on early-stage delinquent customers (1–7 DPD), so results may not directly generalize to mid or late stage delinquency segments.
+ 
+  -  Additionally, the campaign evaluated message framing only, with all other variables (timing, frequency, channel) held constant.
+
+ - Repayment outcomes were measured within a 14-day campaign window, which may not capture delayed repayments occurring after the test period.
+
+ - Statistical testing was not conducted, while observed differences in repayment rates and response rates are meaningful, formal hypothesis testing (p-values, confidence intervals) would further validate the significance of the uplift
