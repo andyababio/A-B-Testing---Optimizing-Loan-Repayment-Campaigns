@@ -1,5 +1,8 @@
 # A/B Testing Message Framing to Improve Early-Stage Loan Repayments
-# Logo
+<p align="center">
+   <img src="Images/pay-zen-log0-done.png" 
+        alt="logo" width="40%" />
+</p>
 
 # PAYZEN
 PayZen is a digital financial platform empowering individuals across Africa to take control of their finances with ease. From managing repayments and accessing instant loans to making smart investments, PayZen simplifies financial decisions with transparency, flexibility, and innovative technology, with a mission to create financial freedom and inclusion for everyone, whether in city centers or rural communities
