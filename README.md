@@ -7,7 +7,6 @@
 # PAYZEN
 PayZen is a digital financial platform empowering individuals across Africa to take control of their finances with ease. From managing repayments and accessing instant loans to making smart investments, PayZen simplifies financial decisions with transparency, flexibility, and innovative technology, with a mission to create financial freedom and inclusion for everyone, whether in city centers or rural communities
 
-## Dashboard Overview
 <h1 align="center">Dashboard Overview</h1>
 <p align="center">
    <img src="Images/AB_testing_dashboard.png" 
